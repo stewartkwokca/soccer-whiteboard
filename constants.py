@@ -1,0 +1,13 @@
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+X_img=1280
+Y_img = 801
+SIDEBAR_WIDTH = 200
+
+BUTTON_SIZE = SIDEBAR_WIDTH/2-20
+
+BALL_START_COORDS = (X_img//2, Y_img//2)
