@@ -1,7 +1,3 @@
-# Field: https://pixabay.com/vectors/soccer-field-diagram-green-307046/
-# Arrows: <a href="https://www.flaticon.com/free-icons/move-selection" title="move selection icons">Move selection icons created by Design Circle - Flaticon</a>
-# Trash Can: <a href="https://www.flaticon.com/free-icons/trash" title="trash icons">Trash icons created by Freepik - Flaticon</a>
-
 import pygame
 import players
 from constants import *

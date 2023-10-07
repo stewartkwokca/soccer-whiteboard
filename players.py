@@ -29,11 +29,10 @@ class Player:
 class Ball(Player):
     def __init__(self):
         super().__init__(BALL_START_COORDS[0], BALL_START_COORDS[1], BLACK)
-        self.radius -= 5
-        self.ball_surface = pygame.transform.scale(pygame.image.load("assets/images/trash-can.png"), (self.radius, self.radius))
+        self.ball_surface = pygame.transform.scale(pygame.image.load("assets/images/ball.png"), (self.radius*2, self.radius*2))
 
     def render(self, surface):
-        super().render(surface)
+        surface.blit(self.ball_surface, (self.x-self.radius, self.y-self.radius))
 
 
 def addPlayer(player):
